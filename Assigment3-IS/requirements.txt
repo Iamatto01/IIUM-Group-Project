@@ -1,0 +1,7 @@
+
+torch 
+torchvision 
+facenet-pytorch 
+pandas 
+matplotlib 
+opencv-python
