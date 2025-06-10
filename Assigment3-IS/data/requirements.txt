@@ -1,0 +1,13 @@
+pandas 
+matplotlib 
+arabic-reshaper 
+python-bidi
+openpyxl
+torch 
+torchvision 
+torchaudio
+gunicorn
+torch torchvision 
+pillow
+
+pip install tensorflow tensorflow-addons arabic-reshaper python-bidi matplotlib opencv-python pandas scikit-learn tqdm
