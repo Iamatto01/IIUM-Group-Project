@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rezki Food - Location</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papap..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha512-..." crossorigin="" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="Style.css" />
+  <!-- jQuery (needed for nav toggle etc.) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-..." crossorigin="anonymous"></script>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha512-..." crossorigin=""></script>
+  <script src="script.js"></script>
+</head>
+  <!-- HEADER -->
+ <!-- HEADER -->
+  <header>
+    <div class="container header-content">
+      <div class="header-left">
+        <a href="index.html" class="page-type serif">Home</a>
+      </div>
+      <div class="header-center">
+      <div class="logo"><i class="fas fa-utensils" style="margin-right: 6px;"></i>Rezki Food</div>
+      </div>
+      <div class="header-right">
+        <div class="slogan serif">Since 2017</div>
+      </div>
+      <!-- Mobile nav toggle -->
+      <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="About.html">About</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="Social.html">Social</a></li>
+          <li><a href="Location.html">Location</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Authentic <span>Halal</span> Cuisine</h1>
+      <p>Experience the rich flavors of traditional recipes passed down through generations, prepared with love and the finest ingredients.</p>
+      <div class="hero-btns">
+        <a href="menu.html" class="btn btn-outline">Browse Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Find <span>Us</span> Here</h2>
+        <p>Visit our beautiful location where we serve authentic flavors with warmth and hospitality. We're conveniently located and ready to welcome you to the Rezki Foods family.</p>
+      </div>
+      
+      <div class="location-section">
+        <div class="info-container">
+          <div class="info-box">
+            <h2>Address & Contact</h2>
+            <ul>
+              <li><strong>Address:</strong>Kafeteria Mahallah Al-Faruq, Universiti Islam Antarabangsa Malaysia (UIAM), Gombak, KL, Kampung Gombak, Malaysia/li>
+              <li><strong>Phone:</strong> +60 19-552 6652</li>
+              <li><strong>Email:</strong>  rezkifoodindustries@gmail.com<</li>
+              <li><strong>Parking:</strong> Free parking available</li>
+              <li><strong>Accessibility:</strong> Wheelchair accessible</li>
+            </ul>
+          </div>
+          
+          <div class="info-box">
+            <h2>Hours of Operation</h2>
+            <ul>
+              <li><strong>Mon - Fri:</strong> 11:00 AM – 9:00 PM</li>
+              <li><strong>Saturday - Sunday:</strong> 12:00 PM – 10:00 PM</li>
+              <li><strong>Ramadan:</strong> Special hours apply</li>
+              <li><strong>Holidays:</strong> Closed on Eid days</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="map-container" id="map"></div>
+        
+        <div class="visit-box">
+          <h2>Ready to Visit?</h2>
+          <p>Get directions to our location or contact us for more information about our delicious halal cuisine and catering services.</p>
+          <button class="btn visit-btn" onclick="openGoogleMaps()">Get Directions</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <ul class="contact-info">
+          <li><i class="fas fa-map-marker-alt"></i> 
+Kafeteria Mahallah Al-Faruq, Universiti Islam Antarabangsa Malaysia (UIAM), Gombak, KL, Kampung Gombak, Malaysia</li>
+          <li><i class="fas fa-phone"></i> +60 19-552 6652</li>
+          <li><i class="fas fa-envelope"></i> rezkifoodindustries@gmail.com</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Opening Hours</h3>
+        <ul class="contact-info">
+          <li>Mon - Fri: 11:00 AM - 9:00 PM</li>
+          <li>Sat - Sun: 12:00 PM - 10:00 PM</li>
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul class="footer-links">
+          <li><a href="https://facebook.com" target="https://www.facebook.com/rezkifoodindustries/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="https://instagram.com" target="https://www.instagram.com/rezkifood/"><i class="fab fa-instagram"></i> Instagram</a></li>
+       
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2023 Rezki Foods SDN BHD. All Rights Reserved. | Halal Certified: JAKIM (12345/2023)
+    </div>
+  </footer>
+</body>
+</html>
